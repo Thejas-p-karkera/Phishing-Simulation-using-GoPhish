@@ -1,0 +1,16 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# Anything you export locally from GoPhish/cloudflared that you don't mean to commit
+*.db
+*.sqlite3
+config.json
+gophish.log
+cloudflared.log
+*.pem
+*.key
+
+# Original working doc, if you keep one locally alongside the repo
+*.docx
